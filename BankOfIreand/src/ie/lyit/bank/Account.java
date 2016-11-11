@@ -3,7 +3,7 @@ package ie.lyit.bank;
 
 public abstract class Account{
 	protected Name name;		// COMPOSITION - Account HAS-A name (object of class Name)
-	protected String address;	
+	protected String address;	 
 	protected double balance;
 	protected Date dateOpened;	// COMPOSITION - Account HAS-A dateOpened (object of class Date)
 	protected int accountNo;
