@@ -1,7 +1,8 @@
 
 package ie.lyit.bank;
 
-public abstract class Account{
+public abstract class Account{ //tester comment for linux mint
+	
 	protected Name name;		// COMPOSITION - Account HAS-A name (object of class Name)
 	protected String address;	 
 	protected double balance;
